@@ -3,7 +3,9 @@ session_start();
   if(isset($_POST['color']))
   {
       $color=$_POST['color'];
- 
+  }
+  else {
+	  $color= "white";
   }
 ?>
 <html>
