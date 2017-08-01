@@ -3,7 +3,7 @@
       $color=$_POST['color'];
   }
   else {
-	  $color= "black";
+	  $color= "white";
   }
 ?>
 <html>
