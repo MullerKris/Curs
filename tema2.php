@@ -1,5 +1,5 @@
 <?php
-  if(isset($_POST['color'])) {
+ if(isset($_POST['color'])) {
       $color=$_POST['color'];
   }
   else {

@@ -1,6 +1,6 @@
 <?php 
 //error_reporting(0);
-if (isset($_POST['sub'])) {
+ if (isset($_POST['sub'])) {
 /*	if (strlen(trim($_POST['nr1']))<1) echo "scrie ceva la nr1";
 	elseif (empty($_POST['nr2'])) echo "scrie ceva la nr2";*/
 	if (!is_numeric($_POST['nr1'])) echo "scrie un numar la nr1";

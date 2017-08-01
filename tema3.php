@@ -1,6 +1,6 @@
 
 <?php
-if (isset($_POST['culoare'])){
+ if (isset($_POST['culoare'])){
       $culoare=$_POST['culoare'];
 }
 $a=array(1,2,3,4,5,6,7,8,9,'a','b','c','d','f');

@@ -1,5 +1,5 @@
 <?php
- if(isset($_POST['select'])) {
+  if(isset($_POST['select'])) {
 	echo $_POST["zi"] ."/";
 	echo $_POST["luna"] ."/";
 	echo $_POST["an"] ;
@@ -8,7 +8,7 @@
 
 <form  method="post">
 <select name="zi">
-<option value="0">zi</option>
+<option value="0">zi</option
 <?php 
 	for($i=1;$i<=31; $i++)
 		if ($_POST["zi"]==$i)
