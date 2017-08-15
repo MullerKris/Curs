@@ -13,10 +13,12 @@ if (isset($_POST['trimite'])) {
 		fclose($handle);
 }
 		//pasul 2. creez o poveste cu tot ce s-a completat in formular		
-		$poveste = "Nume: ".$_POST['nume']."\r\nPrenume: ".$_POST['prenume']."\r\nAdresa: ".str_ireplace("\r\n", "\r\n\t", $_POST['adresa'])."\r\nData nasterii: ".$_POST['zi']."/".$_POST['luna']."/".$_POST['an']."\r\nFumator: ".$_POST['fumator']."\r\n**********\r\n";
+		$poveste = "Nume: ".$_POST['nume']."\r\nPrenume: ".$_POST['prenume']."\r\nAdresa: ".str_ireplace("\r\n", "\r\n\t", $_POST['adresa'])."\r\nData nasterii: ".$_POST['zi']."/".$_POST['luna']."/".$_POST['an']."\r\nFumator: ".$_POST['fumator']."\r\n";
 		
 		//pasul 3. scriu povestea in fisier
 		$handle = fopen($fisier, "a+");
+		if (filesize($fisier) > 0)
+			fwrite($handle, "**************\r\n");
 		fwrite($handle, $poveste);
 		fclose($handle);
 		
