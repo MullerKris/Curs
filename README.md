@@ -11,3 +11,5 @@ Week 2:
 Week 3:
  - homework5.php - Completing form and saving data to txt file
  - homework6.php - Saves in the txt file how many times the page has been accessed
+Week 4:
+ - homework7.php - Saves in the txt file how many times the page has been visited and changes the background color to five hits
