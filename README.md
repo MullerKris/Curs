@@ -16,3 +16,7 @@ Week 3:
  - homework7.php - Saves in the txt file how many times the page has been visited and changes the background color to five hits
  - cookie.php - Check if I have a login cookie
  - login.php - I login to a site and save my data
+
+ Week 5:
+ - date.php - I display the date in Romanian
+  
